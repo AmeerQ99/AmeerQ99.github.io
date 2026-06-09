@@ -48,10 +48,10 @@ $(function () {
 
     // TODO 3 - Create Collectables
 
-    createCollectable("database", 1350, 700);
-    createCollectable("diamond", 140, 160);
-    createCollectable("database", 795, 119);
-    createCollectable("database", 1332, 260);
+    createCollectable("jewel", 1350, 700);
+    createCollectable("jewel", 140, 160);
+    createCollectable("jewel", 795, 119);
+    createCollectable("jewel", 1332, 260);
 
     // TODO 4 - Create Cannons
 
