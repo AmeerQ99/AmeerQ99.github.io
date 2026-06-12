@@ -127,13 +127,12 @@
       function handleBoxClick() {
 
         positionX = randNum = Math.random() * boardWidth;
-        changeBoxText(0);
+        changeBoxText(points);
         points++;
         speed = 3 * points + 10;
 
         positionY = randNumY = Math.random() * boardHeight;
-        changeBoxText(0);
-        points++;
+        changeBoxText(points);
         speedY = 3 * points + 10;
         var colorStr = `rgb(${Math.random() * 255},${Math.random() * 255},${Math.random() * 255})`;
         box.css("background-color", colorStr);
